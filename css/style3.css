@@ -1,0 +1,52 @@
+h2:hover {
+	color: red;
+}
+
+/* Class Selector */
+.subtitle {
+	color: blue;
+} 
+
+/* iD Selector */
+#services {
+	color: green;
+}
+
+/* 
+li:only-child {
+	color: steelblue;
+}
+ */
+
+
+/* 
+#apple-link:link {
+	color: blue;
+	
+}
+
+#apple-link:visited {
+	color: red;
+}
+ */
+
+/* Adjacent Sibling Selector */
+h2 + a {
+	color: red;
+}
+
+/* General Sibling Selector */
+textarea ~ button {
+	color: purple;
+}
+
+/* Child Selector - Just the direct child of the first tag */
+ul > li {
+	color: blue;
+}
+
+
+/* Descendent Selector  - Anything descended from the fist tag */
+ol li {
+	color: green;
+}
